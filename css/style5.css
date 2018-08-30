@@ -1,4 +1,3 @@
-
 html,body{
     font-family: 'Nunito', sans-serif;
     background-color: white;
@@ -10,22 +9,21 @@ html,body{
 .container1{
 	display: flex;
 	align-items: center;
-	
-	background-color: transparent;
+	background-color: black;
     position: fixed;
 	width:100vw;
 	top: 0;
 	margin:0;
-	border-bottom: 1px solid rgba(105,105,105,0.5);
+	height:auto;
 }
 .hero-image{
    width: 100%;
    height: 100%;
    margin: 0px;
    padding:0px;
-   background-color:black;
-   background-position : all;
+   margin-top:5%;
    background-size: 100% 100%;
+ 
   }
 .hero-image img{
     width: 100%;
@@ -45,7 +43,7 @@ html,body{
 .header-right li{
 	display: inline-block;
 	margin-right: 2vw;
-	text-shadow: all;
+	
 	}
 .header-right a{
 	text-decoration: none;
@@ -55,16 +53,13 @@ html,body{
 	color: red;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 	.container1{
 		display: flex;
 		flex-flow: wrap;
 		flex-direction:column;
-		top:0;
-		background-color:transparent;
-		margin:0;
-		width:100%;
-		border-bottom: 1px solid rgba(105,105,105,0.5);
+		width:100vw;
+		
 	}
 	.logo-left{
 		flex:1;
@@ -82,7 +77,9 @@ html,body{
 	background-color: white;
 	color:black;
 	text-align:center;
-	font-size:400%;
+	font-size:2vw;
+	background-size:100% 100%;
+
 	}
 .container3{
 	background-color: white;
@@ -107,18 +104,17 @@ html,body{
 	flex-flow: row wrap;
 }
 .box4left{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/messi1.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../image/messi1.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
 	color:#E5AC45;
-	background -color: #1A1D89;
-	/*background-repeat: no-repeat;*/
+	
 	background-size: 100% 100%;
 	
 }
 .box4middle{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/ronaldo.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../image/ronaldo.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
@@ -126,27 +122,26 @@ html,body{
 	/*background-repeat: no-repeat;*/
 	background-size: 100% 100%;
 	background-color: #B6CBEB;
+	
 }
 .box4right{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/salah.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../image/salah.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
 	color:#E5AC45;
-	background -color: #F4F0BB;
+	
+	
 	/*background-repeat: no-repeat;*/
 	background-size: 100% 100%;
 }
 @media screen and (max-width: 700px) {
     .container2{
-    	background-color: white;
-	color:black;
-	text-align:center;
-	font-size:400%;
+    		font-size:1vw;
     }
     .container3{
 
-      background-color: white;
+      
 	display: flex;
 	flex-flow:column wrap;
      
@@ -155,18 +150,17 @@ html,body{
     .box3left{
 	flex:1;
 	padding: 10px 25px;
-	color:white;
-	background:black;
+	
 	background-size: 100% 100%;
     }.box3right{
 	flex:1;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("balloon.jpg");
+	
 	box-sizing: border-box;
     background-size: 100% 100%;
 
     }
 	.container4{
-		background-color: white;
+		
 		display: flex;
 		flex-flow:column wrap;
 	}
