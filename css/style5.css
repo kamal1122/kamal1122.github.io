@@ -96,7 +96,7 @@ html,body{
 	background-size: 100% 100%;
 }.box3right{
 	flex:1;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("balloon.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/balloon.jpg");
 	box-sizing: border-box;
     background-size: 100% 100%;
 
@@ -107,7 +107,7 @@ html,body{
 	flex-flow: row wrap;
 }
 .box4left{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("messi1.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/messi1.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
@@ -118,7 +118,7 @@ html,body{
 	
 }
 .box4middle{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("ronaldo.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/ronaldo.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
@@ -128,7 +128,7 @@ html,body{
 	background-color: #B6CBEB;
 }
 .box4right{
-	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("salah.jpg");
+	  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/salah.jpg");
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
@@ -192,7 +192,7 @@ html,body{
 .footer-box{
 	flex: 2;
 	color: #808080;
-	padding: 10px;
+	padding: 20px;
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -208,36 +208,29 @@ html,body{
 @media (min-width: 700px) {
 	
 }
-.fab fa-facebook-f  fa-lg{
-	height:40px;
-	width:40px;
-}
-.fab fa-twitter fa-lg{
-	height:40px;
-	width:40px;
-
-}
-.fab fa-instagram fa-lg{
-	height:40px;
-	width:40px;
-}
 
 #facebook i{
 	color: #a2a2a2;
+	margin-right:25px;
 }
 #facebook i:hover{
 	color: #3b5998;
+	margin-right:25px;
 }
 #twitter i{
 	color: #a2a2a2;
+	margin-right:25px;
 }
 #twitter i:hover{
 	color: #0084b4;
+	margin-right:25px;
 }
 #instagram i{
 	color: #a2a2a2;
+	margin-right:25px;
 }
 #instagram  i:hover{
 	color:#cd486b;
+	margin-right:25px;
 }
 
